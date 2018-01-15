@@ -10,7 +10,10 @@ A lot has been said during the past several years about how precision medicine a
 
 ## Data  
 
+There are nine different classes a genetic mutation can be classified on.  
 
+Both, training and test, data sets are provided via two different files.  
 
+One (training/test\_variants) provides the information about the genetic mutations, whereas the other (training/test\_text) provides the clinical evidence (text) that the human experts used to classify the genetic mutations. Both are linked via the ID field.  
 
 
