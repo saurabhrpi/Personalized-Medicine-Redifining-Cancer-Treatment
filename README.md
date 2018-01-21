@@ -19,4 +19,9 @@ Both, training and test, data sets are provided via two different files.
 
 One (training/test\_variants) provides the information about the genetic mutations, whereas the other (training/test\_text) provides the clinical evidence (text) that the human experts used to classify the genetic mutations. Both are linked via the ID field.  
 
+## Metrics  
+
+Performance of the classifier is evaluated using the multi class log loss between the predicted probability and the observed target for each ID in the test set.
+
+
 
